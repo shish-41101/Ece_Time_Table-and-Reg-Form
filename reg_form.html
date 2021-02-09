@@ -2,38 +2,45 @@
 <HTML>
 <title>Student Form</title>
 <head>
-
+	<style>
+		div{
+			margin-left:50px;
+			margin-right:100px;
+			padding-left:450px;
+			padding-right: 450px;
+		}
+	</style>
 </head>
 <body>
-<h1>Student registration form</h1>
-<form action="/action_page.php">
-	<h2>Enter the first name</h2>
+	<div>
+<h1 style="text-align: center">Student registration form</h1>
+<form action="/action_page.php" style="background: #ccff99">
+	<h2 style="color:#66ccff">Enter the first name</h2>
 	<label for="fname">First Name:</label>
    <input type="text" name="fn" id="fname" value="Ashish"><br>
-   <h2>Enter the last name</h2>
+   <h2 style="color:#66ccff">Enter the last name</h2>
   <label for="lname">Last Name:</label>
   <input type="text" name="ln" id="lname" value="Meena"><br>
-   <h2>Enter the roll number</h2>
+   <h2 style="color:#66ccff">Enter the roll number</h2>
   <label for="rollnum">Roll No:</label>
    <input type="number" name="rlnm" id="rollnum" value="184206"><br>
-   <h2>Choose the Section</h2>
-   <select size="2">
+   <h2 style="color:#66ccff">Choose the Section</h2>
+   <select size="2" style="background: #00e6ac">
    	<option>A</option>
    	<option>B</option>
    </select>
-   <h2>Enter the Date of birth</h2>
+   <h2 style="color:#66ccff">Enter the Date of birth</h2>
    <label for="dob">DOB:</label>
    <input type="date" name="fn" id="dob" value="04-09-2001"><br>
-    <h2>Enter the Gender:</h2>
+    <h2 style="color:#66ccff">Enter the Gender:</h2>
    <label for="male">Male</label>
   <input type="radio" name="gender" id="male" value="male"><br>
   <label for="female">Female</label>
   <input type="radio" name="gender" id="female" value="female"><br>
   <label for="other">Other</label>
   <input type="radio" name="gender" id="other" value="other"><br><br>
-  <input type="submit" value="Submit">
-    <h2>Choose the Subjects</h2>
-    <select size="8">
+    <h2 style="color:#66ccff">Choose the Subjects</h2>
+    <select size="8" style="background: #4dff88">
    	<option>ITC</option>
    	<option>DN</option>
    	<option>CS</option>
@@ -44,8 +51,10 @@
    	<option>ERTOS</option>
    	<option>Communication Systems Lab</option>
    	<option>Data N/Ws Lab</option>
-   	
    </select>
+   <br>
+   <input type="submit" value="Submit">
 </form>  
+</div>
 </body>
 </HTML>
